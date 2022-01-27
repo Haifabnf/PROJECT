@@ -89,3 +89,47 @@
     left: 40%;
     top: 5%;
 }
+.home{
+    background-color: white;
+    margin-bottom: -50px;
+}
+.home h1{
+    color: #00a69c;
+    position: relative;
+    text-align: center;
+    margin: 40px;
+    font-size: 50px;
+    font-family: 'quicksand';
+    font-weight: bold;
+}
+.home-box{
+    background-color: #e4dff7;
+    height: 500px;
+    text-align: center;
+}
+.box{
+    display: inline-block;
+    width: 350px;
+    height: 350px;
+    background-color: white;
+    margin: 50px;
+    box-shadow: 0px 3px 4px -2px black;
+    padding-top: 2%;
+}
+.box img{
+    height: 200px;
+    width: 200px;
+    background-color: #ffeb53;
+    padding: 10%;
+    border-radius: 0%;
+}
+.box h3{
+    font-size: 30px;
+    margin-top: 5%;
+    font-family: 'quicksand';
+    font-weight: 900;
+}
+.box:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
