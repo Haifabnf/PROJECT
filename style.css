@@ -43,6 +43,14 @@
     display: inline-block;
     padding: 20px 10px;
 }
+.nav-list .list-item a{
+    text-decoration: none;
+    color: #0c1753;
+}
+.nav-list .list-item a:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
 .home-page{
     background-image: linear-gradient(#5263c2, #9375ff);
     height: 400px;
